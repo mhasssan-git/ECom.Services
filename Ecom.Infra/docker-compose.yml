@@ -1,0 +1,31 @@
+version: "20.10.21"
+
+services:
+  ProductDb:
+    image:  mongo
+    container_name: ProductDb
+    ports:
+      - 27000:27017
+    volumes:
+      - Product-Db:/data/db
+  OrderDb:
+    image: mysql:latest
+    container_name: OrderDb
+    restart: always
+    environment:
+        MYSQL_DATABASE: 'OrderService'
+        MYSQL_USER: 'admin'
+        MYSQL_PASSWORD: 'password'
+        MYSQL_ROOT_PASSWORD: 'password'
+    ports:
+      - 3300:3306
+    expose:
+      - 3300
+    volumes:
+      - Order-Db:/var/lib/mysql
+
+volumes:
+  Product-Db:
+    driver: local
+  Order-Db:
+    driver: local
