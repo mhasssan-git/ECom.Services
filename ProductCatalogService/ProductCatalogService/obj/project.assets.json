@@ -2087,11 +2087,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code Fest\\E-Commerce\\ProductCatalogService\\ProductCatalogService\\ProductCatalogService.csproj",
+      "projectUniqueName": "D:\\Code Fest\\ECom\\ECom.Services\\ProductCatalogService\\ProductCatalogService\\ProductCatalogService.csproj",
       "projectName": "ProductCatalogService",
-      "projectPath": "D:\\Code Fest\\E-Commerce\\ProductCatalogService\\ProductCatalogService\\ProductCatalogService.csproj",
+      "projectPath": "D:\\Code Fest\\ECom\\ECom.Services\\ProductCatalogService\\ProductCatalogService\\ProductCatalogService.csproj",
       "packagesPath": "C:\\Users\\mhlal\\.nuget\\packages\\",
-      "outputPath": "D:\\Code Fest\\E-Commerce\\ProductCatalogService\\ProductCatalogService\\obj\\",
+      "outputPath": "D:\\Code Fest\\ECom\\ECom.Services\\ProductCatalogService\\ProductCatalogService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mhlal\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2102,8 +2102,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "D:\\Code Fest\\ASP.NET Microservices\\packages": {},
-        "D:\\Code Fest\\E-Commerce\\Packages": {},
+        "D:\\Code Fest\\ECom\\packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
