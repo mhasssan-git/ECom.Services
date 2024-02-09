@@ -1,4 +1,4 @@
-﻿namespace OrderService.Core.Model
+﻿namespace ProductCatalogService.Core.Model
 {
     public class Model
     {

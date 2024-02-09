@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code Fest\\E-Commerce\\ProductCatalogService\\ProductCatalogService\\ProductCatalogService.csproj": {}
+    "D:\\Code Fest\\e.com\\ProductCatalogService\\ProductCatalogService\\ProductCatalogService.csproj": {}
   },
   "projects": {
-    "D:\\Code Fest\\E-Commerce\\ProductCatalogService\\ProductCatalogService\\ProductCatalogService.csproj": {
+    "D:\\Code Fest\\e.com\\ProductCatalogService\\ProductCatalogService\\ProductCatalogService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code Fest\\E-Commerce\\ProductCatalogService\\ProductCatalogService\\ProductCatalogService.csproj",
+        "projectUniqueName": "D:\\Code Fest\\e.com\\ProductCatalogService\\ProductCatalogService\\ProductCatalogService.csproj",
         "projectName": "ProductCatalogService",
-        "projectPath": "D:\\Code Fest\\E-Commerce\\ProductCatalogService\\ProductCatalogService\\ProductCatalogService.csproj",
+        "projectPath": "D:\\Code Fest\\e.com\\ProductCatalogService\\ProductCatalogService\\ProductCatalogService.csproj",
         "packagesPath": "C:\\Users\\mhlal\\.nuget\\packages\\",
-        "outputPath": "D:\\Code Fest\\E-Commerce\\ProductCatalogService\\ProductCatalogService\\obj\\",
+        "outputPath": "D:\\Code Fest\\e.com\\ProductCatalogService\\ProductCatalogService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mhlal\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,8 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\Code Fest\\ASP.NET Microservices\\packages": {},
-          "D:\\Code Fest\\E-Commerce\\Packages": {},
+          "D:\\Code Fest\\e.com\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,6 +41,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "CommonService": {
               "target": "Package",
               "version": "[1.0.7, )"

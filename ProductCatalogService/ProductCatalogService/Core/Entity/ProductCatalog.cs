@@ -1,16 +1,20 @@
-﻿
-using Common.Core;
+﻿using Common.Core;
 using ProductCatalogService.Core.Enum;
 
 namespace ProductCatalogService.Core.Entity
 {
-    public class ProductCatalog : Entity<Guid>
+    public class Product : Entity<Guid>
     {
         public string Name { get; set; }
-        public string Description { get; set; }
-        public decimal Price { get; set; }
+        public Price Price { get; set; }
         public EPriceUnit PriceUnit { get; set; }
-        public Guid Thumbnail { get; set; }
-        public List<Guid> ProductImages { get; set; }
+        public ProductDescription ProductDescription { get; set; }
+        public List<ProductImage> ProductImages { get; set; }
+    }
+
+    public class Price
+    {
+        public decimal BasePrice { get; set; }
+        public decimal Discount { get; set; }
     }
 }

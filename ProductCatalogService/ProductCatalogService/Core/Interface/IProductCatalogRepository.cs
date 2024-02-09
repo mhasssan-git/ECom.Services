@@ -1,9 +1,9 @@
 ﻿using Common.Core.Interface;
 using ProductCatalogService.Core.Entity;
 
-namespace OrderService.Core.Interface
+namespace ProductCatalogService.Core.Interface
 {
-    public interface IProductCatalogRepository:IRepository<ProductCatalog,Guid>
+    public interface IProductRepository:IRepository<Product,Guid>
     {
     }
 }

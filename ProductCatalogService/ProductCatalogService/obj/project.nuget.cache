@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "rK/dPJ6wYCs3u77U8K9+DyDazw6ffkk93O+FFK9RNll8885iRqz9oWmVk9+ej48s/2A9hUg2i6OQQLT0tO+n+w==",
+  "dgSpecHash": "VvWoG5bztlExr18ZKZXnlgL8SgXK53dEIHqtT+tHmT4S9PvQXNay1+A9pEgywapk9LyobnMTyiGbQkp6Y6mgLg==",
   "success": true,
-  "projectFilePath": "D:\\Code Fest\\E-Commerce\\ProductCatalogService\\ProductCatalogService\\ProductCatalogService.csproj",
+  "projectFilePath": "D:\\Code Fest\\e.com\\ProductCatalogService\\ProductCatalogService\\ProductCatalogService.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mhlal\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\mhlal\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\mhlal\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "C:\\Users\\mhlal\\.nuget\\packages\\commonservice\\1.0.7\\commonservice.1.0.7.nupkg.sha512",
