@@ -16,6 +16,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="D:\Code Fest\E-Commerce\Common\CommonService\bin\Debug\net7.0\CommonService.dll" target="lib\net7.0\CommonService.dll" />
+    <file src="D:\Code Fest\ECom\ECom.Services\Common\CommonService\bin\Debug\net7.0\CommonService.dll" target="lib\net7.0\CommonService.dll" />
   </files>
 </package>

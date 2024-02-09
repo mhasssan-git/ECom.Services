@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code Fest\\e.com\\ProductCatalogService\\ProductCatalogService\\ProductCatalogService.csproj": {}
+    "D:\\Code Fest\\ECom\\ECom.Services\\ProductCatalogService\\ProductCatalogService\\ProductCatalogService.csproj": {}
   },
   "projects": {
-    "D:\\Code Fest\\e.com\\ProductCatalogService\\ProductCatalogService\\ProductCatalogService.csproj": {
+    "D:\\Code Fest\\ECom\\ECom.Services\\ProductCatalogService\\ProductCatalogService\\ProductCatalogService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code Fest\\e.com\\ProductCatalogService\\ProductCatalogService\\ProductCatalogService.csproj",
+        "projectUniqueName": "D:\\Code Fest\\ECom\\ECom.Services\\ProductCatalogService\\ProductCatalogService\\ProductCatalogService.csproj",
         "projectName": "ProductCatalogService",
-        "projectPath": "D:\\Code Fest\\e.com\\ProductCatalogService\\ProductCatalogService\\ProductCatalogService.csproj",
+        "projectPath": "D:\\Code Fest\\ECom\\ECom.Services\\ProductCatalogService\\ProductCatalogService\\ProductCatalogService.csproj",
         "packagesPath": "C:\\Users\\mhlal\\.nuget\\packages\\",
-        "outputPath": "D:\\Code Fest\\e.com\\ProductCatalogService\\ProductCatalogService\\obj\\",
+        "outputPath": "D:\\Code Fest\\ECom\\ECom.Services\\ProductCatalogService\\ProductCatalogService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mhlal\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,7 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\Code Fest\\e.com\\Packages": {},
+          "D:\\Code Fest\\ECom\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -47,7 +47,7 @@
             },
             "CommonService": {
               "target": "Package",
-              "version": "[1.0.7, )"
+              "version": "[1.0.10, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",

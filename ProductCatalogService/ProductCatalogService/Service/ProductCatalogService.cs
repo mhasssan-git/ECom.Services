@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using ProductCatalogService.Core.Entity;
 using ProductCatalogService.Core.Interface;
 using ProductCatalogService.Core.Model;
 using ProductCatalogService.Core.Service;
@@ -16,42 +17,43 @@ namespace ProductCatalogService.Service
             _mapper = mapper;
         }
 
-        public Task<List<ProductModel>> GetProductList()
+        public async Task<List<ProductModel>> GetPagedProductList(int page,int pageSize)
         {
-            throw new NotImplementedException();
+            List<Product> products= await repository.GetPageListAsync(page,pageSize);
+            return _mapper.Map<List<ProductModel>>(products);
         }
 
-        public async Task<ProductDetailsModel> GetProductDetail(Guid productId)
-        {
-            var productEntity = await repository.GetEntityWithSpec(entity => entity != null 
-                                                                           && entity.Id == productId);
-            ProductDetailsModel orderModel = _mapper.Map<ProductDetailsModel>(productEntity);
-            return orderModel;
-        }
+        //public async Task<ProductDetailsModel> GetProductDetail(Guid productId)
+        //{
+        //    var productEntity = await repository.GetEntityWithSpec(entity => entity != null
+        //                                                                   && entity.Id == productId);
+        //    ProductDetailsModel orderModel = _mapper.Map<ProductDetailsModel>(productEntity);
+        //    return orderModel;
+        //}
 
-    
-        public async Task CreateProductAsync(OrderModel orderModel)
-        {
-            Order entity = _mapper.Map<Order>(orderModel);
-            await repository.CreatedAsync(entity);
-        }
 
-        public void UpdateOrderAsync(Guid orderId, OrderModel orderModel)
-        {
-            Order entity = _mapper.Map<Order>(orderModel);
-            repository.UpdateAsync(entity);
-        }
+        //public async Task CreateProductAsync(OrderModel orderModel)
+        //{
+        //    Order entity = _mapper.Map<Order>(orderModel);
+        //    await repository.CreatedAsync(entity);
+        //}
 
-        public Task DeleteOrderAsync(int orderId)
-        {
-            throw new NotImplementedException();
-        }
+        //public void UpdateOrderAsync(Guid orderId, OrderModel orderModel)
+        //{
+        //    Order entity = _mapper.Map<Order>(orderModel);
+        //    repository.UpdateAsync(entity);
+        //}
 
-        public async Task DeleteOrderAsync(Guid orderId)
-        {
-            await repository.RemoveAsync(orderId);
-        }
+        //public Task DeleteOrderAsync(int orderId)
+        //{
+        //    throw new NotImplementedException();
+        //}
 
-       
+        //public async Task DeleteOrderAsync(Guid orderId)
+        //{
+        //    await repository.RemoveAsync(orderId);
+        //}
+
+
     }
 }

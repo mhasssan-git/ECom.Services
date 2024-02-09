@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code Fest\\E-Commerce\\Common\\CommonService\\CommonService.csproj": {}
+    "D:\\Code Fest\\ECom\\ECom.Services\\Common\\CommonService\\CommonService.csproj": {}
   },
   "projects": {
-    "D:\\Code Fest\\E-Commerce\\Common\\CommonService\\CommonService.csproj": {
-      "version": "1.0.7",
+    "D:\\Code Fest\\ECom\\ECom.Services\\Common\\CommonService\\CommonService.csproj": {
+      "version": "1.0.10",
       "restore": {
-        "projectUniqueName": "D:\\Code Fest\\E-Commerce\\Common\\CommonService\\CommonService.csproj",
+        "projectUniqueName": "D:\\Code Fest\\ECom\\ECom.Services\\Common\\CommonService\\CommonService.csproj",
         "projectName": "CommonService",
-        "projectPath": "D:\\Code Fest\\E-Commerce\\Common\\CommonService\\CommonService.csproj",
+        "projectPath": "D:\\Code Fest\\ECom\\ECom.Services\\Common\\CommonService\\CommonService.csproj",
         "packagesPath": "C:\\Users\\mhlal\\.nuget\\packages\\",
-        "outputPath": "D:\\Code Fest\\E-Commerce\\Common\\CommonService\\obj\\",
+        "outputPath": "D:\\Code Fest\\ECom\\ECom.Services\\Common\\CommonService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mhlal\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,8 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\Code Fest\\ASP.NET Microservices\\packages": {},
-          "D:\\Code Fest\\E-Commerce\\Packages": {},
+          "D:\\Code Fest\\ECom\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

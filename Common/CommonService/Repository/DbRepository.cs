@@ -8,29 +8,37 @@ namespace Common.Repository
 {
     public abstract class DbRepository<TModel, TId> : IRepository<TModel, TId> where TModel : Entity<TId>
     {
-        private protected DbSet<TModel> DbSet;
+        protected DbSet<TModel> dbSet;
         private protected DbContext dbContext;
 
         protected DbRepository(DbContext context)
         {
             dbContext = context;
-            DbSet = dbContext.Set<TModel>();
+            dbSet = dbContext.Set<TModel>();
         }
 
         public async Task<List<TModel>> GetAllAsync()
         {
-            return await DbSet.ToListAsync();
+            return await dbSet.ToListAsync();
+        }
+        public  IQueryable<TModel> GetEntityAsQueryable()
+        {
+            return dbSet.AsQueryable();
+        }
+        public async Task<List<TModel>> GetPageListAsync(int page,int pageSize)
+        {
+            return await GetEntityAsQueryable().Skip(1).Take(1).ToListAsync();
         }
 
         public async Task<TModel?> GetEntityWithSpec(Expression<Func<TModel, bool>> spec)
         {
-           return await DbSet.Where(spec).FirstOrDefaultAsync();
+           return await dbSet.Where(spec).FirstOrDefaultAsync();
         }
 
 
         public async Task<TModel> GetAsync(TId id)
         {
-            return await DbSet.FindAsync(id);
+            return await dbSet.FindAsync(id);
         }
 
 
@@ -50,7 +58,7 @@ namespace Common.Repository
         public async Task RemoveAsync(TId id)
         {
             var enttiiy=await GetAsync(id);
-            DbSet.Remove(enttiiy);
+            dbSet.Remove(enttiiy);
         }
     }
 

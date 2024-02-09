@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "VvWoG5bztlExr18ZKZXnlgL8SgXK53dEIHqtT+tHmT4S9PvQXNay1+A9pEgywapk9LyobnMTyiGbQkp6Y6mgLg==",
+  "dgSpecHash": "bIVmHpvdwYdnXlOVN8ShrkwREhjkcr906LlcPf9FV2ZfQ9ORGsmzhbiHYaSToSsBrNreFYUswZBO0XDoBR4cVw==",
   "success": true,
-  "projectFilePath": "D:\\Code Fest\\e.com\\ProductCatalogService\\ProductCatalogService\\ProductCatalogService.csproj",
+  "projectFilePath": "D:\\Code Fest\\ECom\\ECom.Services\\ProductCatalogService\\ProductCatalogService\\ProductCatalogService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mhlal\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\mhlal\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\mhlal\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
-    "C:\\Users\\mhlal\\.nuget\\packages\\commonservice\\1.0.7\\commonservice.1.0.7.nupkg.sha512",
+    "C:\\Users\\mhlal\\.nuget\\packages\\commonservice\\1.0.10\\commonservice.1.0.10.nupkg.sha512",
     "C:\\Users\\mhlal\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\mhlal\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.13\\microsoft.aspnetcore.openapi.7.0.13.nupkg.sha512",
     "C:\\Users\\mhlal\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.13\\microsoft.entityframeworkcore.7.0.13.nupkg.sha512",

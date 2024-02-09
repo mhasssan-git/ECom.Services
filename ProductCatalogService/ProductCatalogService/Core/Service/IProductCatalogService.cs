@@ -4,7 +4,7 @@ namespace ProductCatalogService.Core.Service
 {
     public interface IProductService
     {
-        public Task<List<ProductModel>> GetProductList();
-        public Task<ProductDetailsModel> GetProductDetail(Guid productId);
+         public Task<List<ProductModel>> GetPagedProductList(int page,int pageSize);
+       // public Task<ProductDetailsModel> GetProductDetail(Guid productId);
     }
 }

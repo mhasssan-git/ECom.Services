@@ -17,6 +17,20 @@ namespace ProductCatalogService.Repository
             modelBuilder.Entity<ProductDescription>();
             modelBuilder.Entity<ProductDescriptionItem>();
             modelBuilder.Entity<ProductImage>();
+
+            modelBuilder.Entity<Product>()
+                .HasOne(a => a.ProductDescription)
+                .WithOne(a => a.Product)
+                .HasForeignKey<ProductDescription>(a=>a.ProductId);
+            modelBuilder.Entity<Product>()
+                .HasMany(a => a.ProductImages)
+                .WithOne(a => a.Product)
+                .HasForeignKey(a => a.ProductId);
+            modelBuilder.Entity<ProductDescription>()
+                .HasMany(a => a.ProductImages)
+                .WithOne(a => a.ProductDescription)
+                .HasForeignKey(a => a.ProductId);
+
         }
     }
 }

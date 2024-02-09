@@ -47,7 +47,7 @@
           }
         }
       },
-      "CommonService/1.0.7": {
+      "CommonService/1.0.10": {
         "type": "package",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.13",
@@ -796,13 +796,13 @@
         "tools/uninstall.ps1"
       ]
     },
-    "CommonService/1.0.7": {
-      "sha512": "C1UZw3adD4NwDUaBG1vVegq32KEtIRiDjn432lfYffpouqidAMWBAbPW8oB2tHBwa2U9ojAiCHwBP6l2avtWDA==",
+    "CommonService/1.0.10": {
+      "sha512": "at990pq3MpEvP8Dh7GbqSKRDi7A3zslJWEdCx8CA9kzYd8mb6Gh+rMp8PO/cgcgMQoYkaRBrEie6d+4iKisFEw==",
       "type": "package",
-      "path": "commonservice/1.0.7",
+      "path": "commonservice/1.0.10",
       "files": [
         ".nupkg.metadata",
-        "commonservice.1.0.7.nupkg.sha512",
+        "commonservice.1.0.10.nupkg.sha512",
         "commonservice.nuspec",
         "lib/net7.0/CommonService.dll"
       ]
@@ -2107,7 +2107,7 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "AutoMapper >= 13.0.1",
-      "CommonService >= 1.0.7",
+      "CommonService >= 1.0.10",
       "Microsoft.AspNetCore.OpenApi >= 7.0.13",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.19.4",
       "Swashbuckle.AspNetCore >= 6.5.0"
@@ -2119,11 +2119,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code Fest\\e.com\\ProductCatalogService\\ProductCatalogService\\ProductCatalogService.csproj",
+      "projectUniqueName": "D:\\Code Fest\\ECom\\ECom.Services\\ProductCatalogService\\ProductCatalogService\\ProductCatalogService.csproj",
       "projectName": "ProductCatalogService",
-      "projectPath": "D:\\Code Fest\\e.com\\ProductCatalogService\\ProductCatalogService\\ProductCatalogService.csproj",
+      "projectPath": "D:\\Code Fest\\ECom\\ECom.Services\\ProductCatalogService\\ProductCatalogService\\ProductCatalogService.csproj",
       "packagesPath": "C:\\Users\\mhlal\\.nuget\\packages\\",
-      "outputPath": "D:\\Code Fest\\e.com\\ProductCatalogService\\ProductCatalogService\\obj\\",
+      "outputPath": "D:\\Code Fest\\ECom\\ECom.Services\\ProductCatalogService\\ProductCatalogService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mhlal\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2134,7 +2134,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "D:\\Code Fest\\e.com\\Packages": {},
+        "D:\\Code Fest\\ECom\\packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2159,7 +2159,7 @@
           },
           "CommonService": {
             "target": "Package",
-            "version": "[1.0.7, )"
+            "version": "[1.0.10, )"
           },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",

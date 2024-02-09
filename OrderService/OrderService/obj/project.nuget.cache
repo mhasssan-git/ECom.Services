@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "dzHLvHGRI2vRWrnTczrZeBxMJceoPQe2lYyPfbQIoc4CTk1l4upBXZLnrMGVpCUt2AgIOcuNV+3cC3go9bbiRw==",
+  "dgSpecHash": "BT8nPF7475FNmkS2gxoHKnsl6h0+mi6y3q7iCYlH6SRBqEe5mH2fW3SXW4RknPX2GD2ndb3HozYETh60fZM9RQ==",
   "success": true,
-  "projectFilePath": "D:\\Code Fest\\E-Commerce\\OrderService\\OrderService\\OrderService.csproj",
+  "projectFilePath": "D:\\Code Fest\\ECom\\ECom.Services\\OrderService\\OrderService\\OrderService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mhlal\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\mhlal\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\mhlal\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
-    "C:\\Users\\mhlal\\.nuget\\packages\\commonservice\\1.0.6\\commonservice.1.0.6.nupkg.sha512",
+    "C:\\Users\\mhlal\\.nuget\\packages\\commonservice\\1.0.7\\commonservice.1.0.7.nupkg.sha512",
     "C:\\Users\\mhlal\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\mhlal\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\mhlal\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.13\\microsoft.aspnetcore.openapi.7.0.13.nupkg.sha512",
@@ -58,5 +58,16 @@
     "C:\\Users\\mhlal\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
     "C:\\Users\\mhlal\\.nuget\\packages\\zstdsharp.port\\0.6.2\\zstdsharp.port.0.6.2.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "OrderService depends on CommonService (>= 1.0.6) but CommonService 1.0.6 was not found. An approximate best match of CommonService 1.0.7 was resolved.",
+      "libraryId": "CommonService",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

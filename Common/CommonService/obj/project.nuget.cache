@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UxnYE+V/ggaZatPkxrgRO+aEwfwmFMC9lbOMbqmPAHacJT4tIlHZRq8WTYzKNkeUEBhC4ojtHWqVEwenmCONsw==",
+  "dgSpecHash": "8+KMshsnV4llihSebzD7sphWhW2SJhKDAeuSfT4+1u3dnlwIjqaLVai89ZKYUcQHleQWMJBx/ulTQuvgMQAvwA==",
   "success": true,
-  "projectFilePath": "D:\\Code Fest\\E-Commerce\\Common\\CommonService\\CommonService.csproj",
+  "projectFilePath": "D:\\Code Fest\\ECom\\ECom.Services\\Common\\CommonService\\CommonService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mhlal\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\mhlal\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

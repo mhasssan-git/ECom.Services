@@ -47,7 +47,7 @@
           }
         }
       },
-      "CommonService/1.0.6": {
+      "CommonService/1.0.7": {
         "type": "package",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.13",
@@ -936,13 +936,13 @@
         "tools/uninstall.ps1"
       ]
     },
-    "CommonService/1.0.6": {
-      "sha512": "9U2MoRsfYRLajsk3oHaD7dxiZZIn0E+hY8d6GtyI+BPCG4YDEKp0DjRRNihJFzGd6d5D9PexOwRprbYKit/lww==",
+    "CommonService/1.0.7": {
+      "sha512": "C1UZw3adD4NwDUaBG1vVegq32KEtIRiDjn432lfYffpouqidAMWBAbPW8oB2tHBwa2U9ojAiCHwBP6l2avtWDA==",
       "type": "package",
-      "path": "commonservice/1.0.6",
+      "path": "commonservice/1.0.7",
       "files": [
         ".nupkg.metadata",
-        "commonservice.1.0.6.nupkg.sha512",
+        "commonservice.1.0.7.nupkg.sha512",
         "commonservice.nuspec",
         "lib/net7.0/CommonService.dll"
       ]
@@ -2554,11 +2554,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code Fest\\E-Commerce\\OrderService\\OrderService\\OrderService.csproj",
+      "projectUniqueName": "D:\\Code Fest\\ECom\\ECom.Services\\OrderService\\OrderService\\OrderService.csproj",
       "projectName": "OrderService",
-      "projectPath": "D:\\Code Fest\\E-Commerce\\OrderService\\OrderService\\OrderService.csproj",
+      "projectPath": "D:\\Code Fest\\ECom\\ECom.Services\\OrderService\\OrderService\\OrderService.csproj",
       "packagesPath": "C:\\Users\\mhlal\\.nuget\\packages\\",
-      "outputPath": "D:\\Code Fest\\E-Commerce\\OrderService\\OrderService\\obj\\",
+      "outputPath": "D:\\Code Fest\\ECom\\ECom.Services\\OrderService\\OrderService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mhlal\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2569,8 +2569,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "D:\\Code Fest\\ASP.NET Microservices\\packages": {},
-        "D:\\Code Fest\\E-Commerce\\Packages": {},
+        "D:\\Code Fest\\ECom\\packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2650,5 +2649,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "OrderService depends on CommonService (>= 1.0.6) but CommonService 1.0.6 was not found. An approximate best match of CommonService 1.0.7 was resolved.",
+      "libraryId": "CommonService",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }
